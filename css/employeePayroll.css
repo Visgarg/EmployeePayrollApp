@@ -35,10 +35,11 @@ body{
 
 /* UC2 */
 .form-content{
-    min-height:calc(100%-80px);
-    background-color:#f7f7f7;
+    min-height:100%;
+    background-color: gray;
     display:flex;
     justify-content: center;
+    align-content:stretch;
     align-items:center;
     border:0px solid green;
 }
@@ -83,4 +84,19 @@ label{
     border: 1px sollid #ccc;
     border-radius:4px;
     resize:vertical;
+}
+/*UC 3*/
+.profile-radio-content{
+    display:flex;
+    flex-direction:row;
+}
+.profile-radio-content>label{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.profile{
+    width:40px;
+    border-radius:50%;
+    margin-left:12px;
 }
