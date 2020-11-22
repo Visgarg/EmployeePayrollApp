@@ -26,6 +26,7 @@
             <div class="row-content">
                 <label class="label text" for="name">Name</label>
                 <input class="input" type="text" id ="name" name="name" placeholder="Your Name" required>
+                <error-output class= "name-error" for="name"></error-output>   
             </div>
             <!--UC3 specifying profile pic-->
             <div class="row-content">
@@ -76,8 +77,8 @@
             </div>
             <div class="row-content"> 
                 <label class="label text" for="salary">Choose your salary: </label> 
-                <input class="input" type="range" name="salary" id="salary" min="300000" max="500000" step="100" value="400000">
-                <output class="salary-output text" for="salary">400000</output> 
+                <input class="input" type="range" name="salary" id="salary" min="300000" max="500000" step="100" value="450000">
+                <output class="salary-output text" for="salary">350000</output> 
             </div> 
             <!--UC 5 adding date-->
             <div class="row-content">
@@ -139,6 +140,7 @@
                     <option value="2016">2016</option> 
                </select>
             </div>
+            <error-output class= "date-error" for=""></error-output>   
          </div>
         <!--UC 6 Adding notes and buttons-->
         <div class="row-content">
@@ -148,11 +150,14 @@
         <div class="button-content">
             <a href="./home.html" class="resetButton button cancelButton">Cancel</a>
             <div class="submit-reset">
-                <button type="submit" class="button submitButton" id="submitButton">Submit</button>
+                <button type="submit" class="submitButton button" id="submitButton">Submit</button>
                 <button type="reset" class="resetButton button">Reset</button>
             </div>
         </div> 
     </form>
     </div>
+    <script src="../js/employeePayroll.js"></script>
+    <script src="../js/empPayroll.js"></script>
+    
 </body>
 </html>
