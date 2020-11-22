@@ -134,6 +134,14 @@ select{
 text-decoration:none;
 text-align:center;
 }
+/*for error outputs */
+error-output
+{
+    font-size:12px;
+    font-style:italic;
+    color:red;
+    margin: 5px;
+}
 /*.submit-reset{
     width:100%;
     display:flex;
